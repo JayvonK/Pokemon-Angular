@@ -25,3 +25,25 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+1. Create the project & File Structure
+    app.commponent.css => the stylesheet for our component, we put our css in this file
+    app.component.html => the template for our component, we put html in this file
+    app.component.spec.ts => the unit test file
+    app.component.ts => the class for our component, we pput typescript in this file
+
+
+2. Displaying data
+    Data binding - This allows us to use data from our class file inside of our template
+        Interpolation binding {{}} => This allows us to display the value of properties inside the template
+
+
+3. Components
+    ng generate component ./components/pokemon
+
+4. Routing
+5. Services & Fetching
+6. Interfaces
+7. Passing data - Parent to child & Display fetched data
+8. Pipes
+9. User input
