@@ -26,6 +26,10 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
+0. Installs
+    Angular CLI commands => npm install -g @angular/cli
+    Extension: Angular Language Service by angular.io
+
 1. Create the project & File Structure
     app.commponent.css => the stylesheet for our component, we put our css in this file
     app.component.html => the template for our component, we put html in this file
@@ -42,8 +46,17 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
     ng generate component ./components/pokemon
 
 4. Routing
+
+
 5. Services & Fetching
+
+
 6. Interfaces
+
+
 7. Passing data - Parent to child & Display fetched data
+
+
 8. Pipes
 9. User input
+10. Two-way binding
