@@ -1,4 +1,9 @@
 <h1>Who's that Pokemon?!</h1>
+<p>Hint: {{this.hint}}</p>
+
+<!-- #userInput is kind of like giving it an id -->
+<input type="text" #userInput >
+<button (click)="this.setName(userInput.value)">Search</button>
 
 <!-- The brackets are saying that pokemonData is going to be a valure from our class -->
-<app-display-pokemon [pokemonDisplay]="this.pokemonData"></app-display-pokemon>
+<app-display-pokemon [pokemonDisplay]="this.pokemonData" [(hint)]="this.hint"></app-display-pokemon>

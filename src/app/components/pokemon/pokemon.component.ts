@@ -14,15 +14,24 @@ export class PokemonComponent implements OnInit {
   pokemonService = inject(PokemonService);
   pokemonData: IPokemon | null = null;
 
+  pokemonName = 'bulbasaur';
+
+  hint = '';
+
   loadPokemon() {
     // .subscribe is observing the data from the api call or when the api call is fulfilled the code will run
-    this.pokemonService.getPokemon().subscribe((pokemon) => {
+    this.pokemonService.getPokemon(this.pokemonName).subscribe((pokemon) => {
       console.log(pokemon);
       this.pokemonData = pokemon;
     })
   }
 
   ngOnInit() {
+    this.loadPokemon();
+  }
+
+  setName(userInput: string) {
+    this.pokemonName = userInput;
     this.loadPokemon();
   }
 }

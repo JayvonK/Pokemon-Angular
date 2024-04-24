@@ -58,5 +58,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 
 8. Pipes
+    pipes - special functions to format data (like uppercase)
+
+    
 9. User input
 10. Two-way binding
